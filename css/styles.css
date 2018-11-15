@@ -1,0 +1,119 @@
+header {
+	text-align: center;
+}
+
+
+nav {
+	float: left;
+	width: 10%;
+}
+
+content {
+	float: left;
+	width: 80%;
+}
+
+footer {
+	text-align: center;
+	background-color: orange;
+	clear: both;
+	padding: 20px
+}
+
+ul {
+	list-style-type: none;
+	padding: 0; 
+}
+
+nav {
+	position: sticky;
+	top: 0px;
+	margin-left: 20px; 
+}
+
+.menu > li {
+	position: relative;
+	border: 1px solid grey;
+	background-color: orange;
+}
+
+.submenu {
+	position: absolute;
+	top: 0;
+	left: 50px;
+	display: none;
+	z-index: 5;
+	background-color: grey;
+}
+
+.menu li:hover .submenu, .submenu:hover {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header {
+	text-align: center;
+}
+nav {
+	float: left;
+	width: 10%;
+	position: sticky;
+	top: 0;
+}
+
+content {
+	float: left;
+	width: 90%
+}
+
+footer {
+	width: 100%;
+	clear: both;
+	background-color: blue;
+	text-align: center;
+}
+
+.menu {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 20px;
+}
+
+.menu li {
+	position: relative;
+
+}
+.submenu {
+	list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 57px;
+    width: 100px;
+    background: white;
+    border: 1px solid grey;
+    display: none;
+}
+
+.menu li:hover .submenu, .submenu:hover, .submenu li:hover {
+	display: block;
+}
+
+*/
